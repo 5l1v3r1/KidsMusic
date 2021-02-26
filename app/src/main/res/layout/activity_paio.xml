@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/holoDarkGreen"
+    tools:context=".PiyanoActivity">
+
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/viewAnimeFinish"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/musicSpinner"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:ms_dropdown_max_height="190dp"
+            app:ms_background_color="@color/white"
+            app:ms_background_selector="@color/darkGreen"
+            app:ms_text_color="@color/white"/>
+
+
+        <TextView
+            android:id="@+id/tvScorID"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@drawable/border_scor"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:text="Puan\n0"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bannerPiano"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/lytDOFirst"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:background="@drawable/border_settings"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDoFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ttvDoFirst"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="top"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="DO"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/imgDoFirst"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:visibility="invisible"
+                app:gif="@drawable/gif_layout" />
+
+            <TextView
+                android:id="@+id/ttvDoFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="C"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/lytRE"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:background="@drawable/border_settings"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvRE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ttvRE"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="top"
+                android:layout_marginBottom="31dp"
+                android:gravity="center"
+                android:text="RE"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/imgRe"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:visibility="invisible"
+                app:gif="@drawable/gif_layout" />
+
+            <TextView
+                android:id="@+id/ttvRE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="d"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lytMI"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:background="@drawable/border_settings"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvMI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ttvMI"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="top"
+                android:layout_marginBottom="49dp"
+                android:gravity="center"
+                android:text="MI"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/imgMI"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:visibility="invisible"
+                app:gif="@drawable/gif_layout" />
+
+            <TextView
+                android:id="@+id/ttvMI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="E"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lytFA"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:background="@drawable/border_settings"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvFA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ttvFA"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="top"
+                android:layout_marginBottom="61dp"
+                android:gravity="center"
+                android:text="FA"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/imgFA"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:visibility="invisible"
+                app:gif="@drawable/gif_layout" />
+
+            <TextView
+                android:id="@+id/ttvFA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="F"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lytSOL"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:background="@drawable/border_settings"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSOL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ttvSOL"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="top"
+                android:layout_marginBottom="69dp"
+
+                android:gravity="center"
+                android:text="SOL"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/imgSOL"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:visibility="invisible"
+                app:gif="@drawable/gif_layout" />
+
+            <TextView
+                android:id="@+id/ttvSOL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="G"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lytLA"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:background="@drawable/border_settings"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ttvLA"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="top"
+                android:layout_marginBottom="70dp"
+                android:gravity="center"
+                android:text="LA"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/imgLA"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:visibility="invisible"
+                app:gif="@drawable/gif_layout" />
+
+            <TextView
+                android:id="@+id/ttvLA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="A"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lytSI"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:background="@drawable/border_settings"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ttvSI"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="top"
+                android:layout_marginBottom="65dp"
+                android:gravity="center"
+                android:text="SI"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/imgSI"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:visibility="invisible"
+                app:gif="@drawable/gif_layout" />
+
+            <TextView
+                android:id="@+id/ttvSI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="B"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lytDOLast"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:background="@drawable/border_settings"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDOLast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ttvDOLast"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="top"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                android:text="DO"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/imgDOLast"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:visibility="invisible"
+                app:gif="@drawable/gif_layout" />
+
+            <TextView
+                android:id="@+id/ttvDOLast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="C tiz"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bannerPiano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/bannerDefault"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

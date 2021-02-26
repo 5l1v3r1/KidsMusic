@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Ninniler Diyarı</string>
+    <string name="action_right_drawer">Ayarlar</string>
+
+    <string name="bannerID">ca-app-pub-3913980143143447~7043368380</string>
+    <string name="bannerDefault">ca-app-pub-3913980143143447/4663906615</string>
+    <string name="fullPageAds">ca-app-pub-3913980143143447/1131855713</string>
+
+    <string name="navigation_drawer_open">Aç</string>
+    <string name="navigation_drawer_close">Kapat</string>
+    <string name="last_mp3">Listenin Sonundasınız!</string>
+    <string name="first_mp3">Listenin başındasınız!</string>
+    <string name="exit_message">Lütfen çıkmak için tekrar tıklayınız!</string>
+    <string name="finish_piano_msg">Tebrikler Bitirdiniz!</string>
+    <string name="play_piano">Piano Çalalım</string>
+    <string name="pianoyu_cal">Koşun üstüne tıklayalım!</string>
+    <string name="selected_music_piano">Çalacağımız müzik</string>
+    <string name="purchase_desc">Geliştiriciye Destek Ol ve Reklamsız Kullan</string>
+
+    <array name="baslik">
+        <item>Dandini Dandini Dastana</item>
+        <item>Uyusun da Büyüsün</item>
+        <item>Nenni Bebeğim</item>
+        <item>Annesi Onu Çok Severmiş</item>
+        <item>Alla Beni</item>
+        <item>Melek Bebek</item>
+        <item>E Bebeğime</item>
+        <item>Yavrum Uyusun Huu</item>
+        <item>Peri Kızı</item>
+        <item>Onu Hep Sevecek</item>
+        <item>Kedicik</item>
+        <item>Hu Hu Allah</item>
+        <item>Fış Fış Kayıkçı</item>
+        <item>Yağmur Yağar</item>
+        <item>Atem Tutem Men Seni</item>
+        <item>Benim Annem</item>
+        <item>Bol Soğanlı Börülce</item>
+        <item>Eşekli Ninni</item>
+        <item>Ninnilerin Merdanesi</item>
+        <item>Parla Yıldızcık</item>
+        <item>Uyu Yavrum Yine Sabah Oluyor</item>
+        <item>Mis Gibi Uyusun Bebeğim</item>
+    </array>
+    <array name="detay">
+        <item>Dandini dandini dastana\nDanalar girmiş bostana\nKov bostancı danayı\nYemesin lahanayı\nHuuu huuu huuu\n\nDandini dandini danadan\nBir ay doğmuş anadan\nKaçınmamış yaradan\nMevla korusun nazardan\nHuuu huuu huu hu\n\nDandini dandini danaylı\nKaplarımız kalaylı\nKızım konak gelini\nOğlum olsa saraylı\nHuu huu huu hu\n\nDandini dandini danaylı\nBenim oğlum onaylık\nOn olmasın beş olsun\nGüzellere eş olsun\nEee eee eee</item>
+        <item>Uyusun da büyüsün ninni\nTıpış tıpış yürüsün ninni\nEee eeee uyu yavrum ninni\nEee eeee uyu yavrum ninni\n\nDandini dandini danalı bebek\n\nElleri kolları kınalı bebek\nEee eee uyu yavrum ninni\nEee eee uyu yavrum ninni\n\nDandini dandini dan ister\nTeyzesinden don ister\nEee eee uyu yavrum ninni\nEee eee uyu yavrum ninni</item>
+        <item>BEBEĞİMİN BEŞİĞİ ÇAMDAN\nYUVARLANDI DÜŞTÜ DAMDAN\nBEY BABASI GELİR ŞAMDAN\nNENNİ NENNİ, NENNİ NENNİ\nNENNİ NENNİ, NENNİ BEBEK OY\n\nÇAMLIBEL´DEN ÇIKTIM YAYAN\nDAYAN EY DİZLERİM DAYAN\nKARDAŞ ATLI BACI YAYAN\nNENNİ NENNİ, NENNİ NENNİ\nNENNİ NENNİ, NENNİ BEBEK OY\n\nBEBEĞİMİN BEŞİĞİ BAKIR\nYERİNDEN KALKMIYOR AĞIR\nBEN SALLARIM TAKIR TAKIR\nNENNİ NENNİ, NENNİ NENNİ\nNENNİ NENNİ, NENNİ BEBEK OY</item>
+        <item>Uykudan Uyanmış\nGülermiş Bakarmış\nAnnesi onu çok\nÖpermiş Severmiş\n\nOkula gidermiş \nYazarmış Çizermiş\nBabası Onu Çok\nÖpermiş Severmiş\n\nAnnesi Onu Çok\nBabası Onu Çok\nHerkesler Onu Çok\nÖpermiş Severmiş\n\nAnesinin Yavrusu\nKuzusu Pamuğu\nAnnesi Ninni Söyler\nCan Kuşu Dinlermiş</item>
+        <item>Alla beni pulla beni al koynuna yar\nGözüm senden başkasını görmez oldu yar\nGönlüm senden bir şey ister nasıl desem yar\nAlla beni pulla beni al koynuna yar\n\nSenin için dağlar deler yol açarım yar\nSenin için denizleri kuruturum yar\nSenin için gök kubbeyi yerlere çalarım yar\nCanım iste canım bile sana kurban yar\n\nDağlar taşlar uçan kuşlar senin olsun yar\nDeniz derya gökler hep yerinde dursun yar\nGönlüm senden bir şey ister nasıl desem yar\nAlla beni pulla beni al koynuna yar\n\nSaçlarına yıldızlardan taç yapayım yar\nBir nefeste güneşleri söndüreyim yar\nÇıra gibi uğrunda ben yanayım yar\nCanım iste canım bile sana kurban yar\n\nYıldızlar yerinde güzel bırak dursun yar\nSaçlarımı ellerinle okşa yeter yar\nGönlüm senden bir şey ister nasıl desem yar\nAlla beni pulla beni al koynuna yar\n\nRüzgar olup ince beline sarılayım yar\nÇimen olup ayağına serileyim yar\nSürme olup gözlerine sürüleyim yar\nCanım iste canım bile sana kurban yar\n\nAlla beni pulla beni al koynuna yar\nGözüm senden başkasını görmez oldu yar\nGönlüm senden bir şey ister nasıl desem yar\nAlla beni pulla beni al koynuna yar</item>
+        <item>Bebeğimin güzel gözleri varmış\nIşıl ışıl parlarmış\nAnnesi ona hep bakarmış\nNinni söyler sallarmış\n\nMelek bebek uyusun da büyüsün\nMelek bebek tıpış tıpış yürüsün\n\nBebeğimin güzel elleri varmış\nYumuk yumuk sıkarmış\nAnnesi onu hep okşarmış\nNinni söyler sallarmış\n\nMelek bebek uyusun da büyüsün\nMelek bebek tıpış tıpış yürüsün\n\nBebeğimin güzel saçları varmış\nMisler gibi kokarmış\nAnnesi onu hep tararmış\nNinni söyler sallarmış\n\nMelek bebek uyusun da büyüsün \nMelek bebek tıpış tıpış yürüsün\n\nBebeğimin güzel oyuncakları varmış\nKırlarda koşup koşup oynarmış\nAnnesiyle saklambaç oynarmış\nYorulunca uykuya dalarmış\n\nMelek bebek uyusun da büyüsün \nMelek bebek tıpış tıpış yürüsün\n\nBebeğimin akşam babası gelmiş\nKuzusunu pek çok pek çok severmiş\nAnnesi onlara mamalar vermiş\nNinni söyler öpermiş\n\nMelek bebek uyusun da büyüsün \nMelek bebek tıpış tıpış yürüsün</item>
+        <item>Kırmızı papuçları duruyor başucunda\nBaşı düşmüş yastığa uyuyor mışıl mışıl\nE bebeğime eee\nMmm mmm mmm mm\n\nMinik minik kolları düşmüş iki yanına\nDalmış pembe düşlere dünyalardan habersiz\nE bebeğime eee\n\nGünlerin getirdiği mutluluk olsun sana\nSevdiğin ve sevildiğin bir hayatı sür bebeğim\nGünün günden güzel olsun\nE bebeğime eee\nMmm mmm mmm mm\n\nMinicik yastığını paylaşmış bebeğiyle\nAlacaklarmış gibi sarılmış elleriyle\nE bebeğime eee\nMmm mmm mmm mm\n\nGünlerin getirdiği mutluluk olsun sana\nSevdiğin ve sevildiğin bir hayatı sür bebeğim\nGünün günden güzel olsun\nE bebeğime eee\nMmm mmm mmm mm</item>
+        <item>Gönül Der Yâr Diyarı (Hu Hu)\nSu Geldi Yâr Diyarı (Nenni)\nDağlar Kalksın Aradan (Yavrum)\nGörünsün Yâr Diyarı (Nenni)\n\nNenni Nenni Hu Gelir (Hu Hu)\nÇeşmelerdenr Su Gelir (Nenni)\nUzun Uzun Oluktan (Yavrum)\nYavruma Uyku Gelir (Nenni)\n\nBaba Der Ağlamakdan (Hu Hu)\nBağa Su Bağlamakdan (Nenni)\nBağda Yaprak Kalmadı (Yavrum)\nYarama Bağlamakdan (Nenni)</item>
+        <item>Bak bir peri kızı gelmiş ormandan,\nUyu ki hemen girsin içeri\n\nSana bakıyor camın kenarından,\nTutsun kollarından uçursun seni\n\nMasallar diyarına götürsün seni,\nOrda seni bekliyor çizmeli kedi\n\nBulmak için ormanda pamuk prensesi,\nGözlerini kapat ve uyu şimdi.</item>
+        <item>Can bebek güleç bebek büyüdü büyüyecek\nAnnesi babası onu hep sevecek\n\nGüleç bebek uyandı gözleri canlı canlı\nGamzeleri pek tatlı yanakları kırmızı\n\nCan bebek güleç bebek büyüdü büyüyecek\nAnnesi babası onu hep sevecek\n\nBebeğimin gözleri mavi boncuk tanesi\nDudakları pembeli ne güzelmiş tanesi\n\nCan bebek güleç bebek büyüdü büyüyecek\nAnnesi babası onu hep sevecek\n\nBarış sevgi her yanı dünyada huzur canı\nİyi melekler olsun yaşamda arkadaşı\n\nCan bebek güleç bebek büyüdü büyüyecek\nAnnesi babası onu hep sevecek\n\nNinni de güzel bebek uykuda gülen bebek\nRüyamda koşup oynar bir kuş ile kelebek\n\nCan bebek güleç bebek büyüdü büyüyecek\nAnnesi babası onu hep sevecek</item>
+        <item>Dışarıda kar yağarken evde şömine yanarken\nBir kedicik çok üşümüş sokakta yemek ararken\n\nDerken bir fakir çocuk görmüş halini\nKoşmuş hemen yanına almış içeri\n\nKurulamış havluyla ıslak tüylerini\nIlık bir kap süt ile doyurmuş kediyi\n\nKedicik çok sevinmiş bu olanlara\nBirden ışık saçılmış bütün odaya\n\nMeğer bir melekmiş o küçük kedi\nŞöyle bir sallamış sihirli değneğini\n\nÇocuk bir de bakmış ki melek yok olmuş\nAma evin heryeri altınla dolmuş</item>
+        <item>Huu Huu Huu Allah\nSen iyilikler ver Allah\nSen iyilikler verirsen\nYavrum büyür inşallah\n\nHuu huu bebeğim\nHuu huu meleğim\nHuu huu kuzuma\nHuu huu yavruma\nEe ee ee ee\nHuu huu huu huu\n\nHuu Huu Huu Allah\nSen iyilikler ver Allah\nSen iyilikler verirsen\nYavrum büyür inşallah\n\nHuu huu bebeğim\nHuu huu meleğim\nHuu huu kuzuma\nHuu huu yavruma\nEe ee ee ee\nHuu huu huu huu</item>
+        <item>Fış fış kayıkçı\nKayıkçının küreği\nHop hop eder yüreği\nAkşama fincan böreği\nYavrum yesin büyüsün\nTıpış Tıpış yürüsün\nE e e e pış pış pış\n\nFış fış kayıkçı\nKayıkçıya gidelim\nKayığına binelim\nDenizlerde gezelim\nAkşam eve gidelim\nBalıkları yiyelim\nE e e e pış pış pış\n\nFış fış kayıkçı\nKayıkçının küreği\nHop hop eder yüreği\nAkşama fincan böreği\nYavrum yesin büyüsün\nTıpış Tıpış yürüsün\nE e e e pış pış pış\n\nFış fış kayıkçı\nKayıkçıya gidelim\nKayığına binelim\nDenizlerde gezelim\nAkşam eve gidelim\nBalıkları yiyelim\nE e e e pış pış pış</item>
+        <item>Yağmur yağar sere serpe\nKulağında elmas küpe\nUyuturum kızımı koka öpe\nEeee eeee ninni\nNinni benim nazlı kızım sana ninni\n\nYağmur yağar sere serpe\nKulağında elmas küpe\nUyuturum kızımı koka öpe\nEeee eeee ninni\nNinni benim nazlı kızım sana ninni</item>
+        <item>Atem tutem men seni\nŞekere gatem men seni\nAkşam baben gelende oy\nOgüne atem men seni\n\nHop hopun olsun oğlum\nGül topun olsun oğlum\nSıralı gavak dibinde oy\nToyluğun olsun oğlum\n\nAtem tutem men seni\nŞekere gatem men seni\nAkşam baben gelende oy\nOgüne atem men seni\n\nEv süpüre toz ede\nHemama gider naz ede\nEl ayağı kir içinde\nYıkamam diye naz ede\n\nAtem tutem men seni\nŞekere gatem men seni\nAkşam baben gelende oy\nOgüne atem men seni</item>
+        <item>Küçücükken baş ucumda\nBana ninni söylerdin\nSabahları uyanınca\nBeni okşar severdin.\n\nBenim annem güzel annem\nBeni al kollarına\nKucağında okşa beni\nNinniler söyle bana</item>
+        <item>Ninni de ninni ninnice\nBol soğanlı börülce\nYesin benim oğlum doyunca\nMini mini yavrum ninni\nEe ee ee ee\nPış pış pış pış\n\nDandini dandini dan ister\nBey babasından don ister\nBasmadan beğenmez oğlum\nKadifeden don ister\nEe ee ee ee\nPış pış pış pış</item>
+        <item>Eşek senin ağzınla \nFırın mı yapayım \nFırınlı dağlar \nSümbüllü bağlar \nBen nerde kalayım oy \n\nEşek senin burnunla \nÇeşme mi yapayım \nÇeşmeli dağlar \nSümbüllü bağlar \nBen nerde kalayım oy \n\nEşek senin kuyruğunla\nKamçı mı yapayım \nKamçılı dağlar \nSümbüllü bağlar \nBen nerde kalayım oy \n\nEşek senin gözünle \nFincan mı yapayım \nFincanlı dağlar \nSümbüllü bağlar \nBen nerde kalayım oy</item>
+        <item>Ninnilerin merdanesi ninni\nAnnesinin bir tanesi\nMini mini kızım ninni\nBenim güzel yavrum ninni\n\nNinni desem nihal olur ninni\nAçar güller bahar olur\nKızım uyumazsa ne hal olur\nAdı güzel yavrum ninni\n\nNinnilerin beni yakar ninni\nAğzın bal dudağın şeker\nYavrum misler gibi kokar\nBenim güzel yavrum ninni</item>
+        <item>Parla parla yıldızcık\nSeni çok merak ettim\nDünyadan çok uzakta\nGökyüzünde bir elmas\nParla parla yıldızcık\nSeni çok merak ettim\n\nParlak güneş gidince\nArtık parlamayınca\nSen ışığını verirsin\nParla parla gün gece\nParla parla yıldızcık\nSeni çok merak ettim</item>
+        <item>Uyu yavrum yine sabah oluyor \nUyumazsan güzel rengin soluyor \nBabacığın gelmiş bize bakıyor \nUyu yavrum yine sabah oluyor \nEe ee ee ee ee\nPış pış pış pış\n\nUyu yavrum yine sabah oluyor \nUyumazsan güzel rengin soluyor \nBabacığın gelmiş bize bakıyor \nUyu yavrum yine sabah oluyor \nEe ee ee ee ee\nPış pış pış pış</item>
+        <item>Ninni de kuzum bebeğim\nMis gibi uyu bebeğim\nUsul usul yavaşça\nMeleklerin yanında\n\nBahçeler yeşerecek\nKuzuma yemiş verecek\nHasır beşikte uykuda\nPamuk rüyalar görecek\n\nNinni de kuzum bebeğim\nMis gibi uyu bebeğim\nNinni de kuzum bebeğim\nMis gibi uyu bebeğim\n\nNinni de kuzum bebeğim\nMis gibi uyu bebeğim\nUsul usul yavaşça\nMeleklerin yanında\n\nBaşucunda kuşlarla\nSaçlarında rüzgarla\nUyusun güzel bebek\nBüyüsün güzel bebek</item>
+    </array>
+
+</resources>
